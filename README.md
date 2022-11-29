@@ -19,7 +19,13 @@ More information can be found in the [SR’18 Data](https://aclanthology.org/W18
 5. Run the second cell.
 6. Gather the outputs in the */content/UD_converter/out* folder (automatically created).
 
-The 4 output subfolders are Sent (original sentences as found in UD metadata, if any), T1 (T1 structures), T2 (T2 structures), debug (time, alignment checks, well-formedness checks and execution trace for T2 conversion).
+The 4 output subfolders are *Sent* (original sentences as found in UD metadata, if any), *T1* (T1 structures), *T2* (T2 structures), *debug* (time, alignment checks, well-formedness checks and execution trace for T2 conversion).
+
+
+## Additional instructions to run the converter offline
+1. Download and unzip the working folder locally, and create a file with the contents of the second cell (e.g. a file called converter.py).
+2. In the created file, go to each line that contains *# Code for offline usage*, comment the line immediately above it, and uncomment the line immediately after it.
+3. The rest of the steps are the same as in the Quick instructions above (Step 3 and following).
 
 
 ## Input specifications
