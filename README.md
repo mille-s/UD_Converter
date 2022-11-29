@@ -23,9 +23,10 @@ The 4 output subfolders are *Sent* (original sentences as found in UD metadata, 
 
 
 ## Additional instructions to run the converter offline
-1. Download and unzip the working folder locally, and create a file with the contents of the second cell (e.g. a file called converter.py).
+1. Download and unzip the working folder locally, and create in the same *UD_Converter* folder a file with the contents of the second cell (e.g. a file called converter.py).
 2. In the created file, go to each line that contains *# Code for offline usage*, comment the line immediately above it, and uncomment the line immediately after it.
-3. The rest of the steps are the same as in the Quick instructions above (Step 3 and following).
+3. Update the paths on lines 22, 25 &nd 27.
+4. The rest of the steps are the same as in the Quick instructions above (Step 3 and following).
 
 
 ## Input specifications
