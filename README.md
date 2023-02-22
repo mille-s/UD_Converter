@@ -1,7 +1,7 @@
 # UD_Converter
 
 ## Introduction
-This converter takes as input either a *.conllu file with UD annotations and produces a predicate-argument structure. It is also possible to start from plain text and run the Stanza parser to produce the UD annotations (see below). The converter can be used to create training material (e.g. for natural language generation tools) or to extract semantics-oriented relations from UD annotations or parses. The first release of the converter (v1.0.0) supports English, French and Spanish UD structures and was developed on UD v2.0-v2.3. The code was first released for the SR'19 shared task.
+This converter takes as input either a *.conllu file with UD annotations and produces a predicate-argument structure. From v1.3.0, it is also possible to start from plain text and run the Stanza parser to produce the UD annotations (see below). The converter can be used to create training material (e.g. for natural language generation tools) or to extract semantics-oriented relations from UD annotations or parses. The first release of the converter (v1.0.0) supports English, French and Spanish UD structures and was developed on UD v2.0-v2.3. The code was first released for the SR'19 shared task.
 
 The primary purpose of this tool is to produce the datasets for the Multilingual Surface Realisation Shared Tasks series (SR’18-20, see http://taln.upf.edu/pages/msr2020-ws/SRST.html). It outputs two types of structures, called shallow (Track 1) and deep (Track 2) structures, aligned with one another via their IDs (see more details below):
 
@@ -14,7 +14,7 @@ More information can be found in the [SR’18 Data](https://aclanthology.org/W18
 ## Quick instructions to run the converter on COLAB
 1. Go to UD_Converter_release.ipynb and open the project in Colab.
 2. Run the first cell to download and unzip the working folder.
-3. If the input is text:
+3. If the input is text (from v1.3.0):
 - run the second cell to install the Stanza parser.
 - upload a file in the *content/Stanza/input* folder; see *Input specifications* below.
 - choose the language.
