@@ -21,7 +21,7 @@ More information can be found in the [SR’18 Data](https://aclanthology.org/W18
 - run the third cell to parse the sentences and copy the output file(s) to the Converter input folder.
 3. If the input is a UD structure:
 - Upload one or more input file(s) to the */content/UD_converter/inputs* folder; see *Input specifications* below.
-4. If needed, edit the parameters on lines 18-72 of the fourth (last) cell; see *Parameters* below.
+4. If needed, edit the parameters on lines 18-76 of the fourth (last) cell; see *Parameters* below.
 5. Run the last cell.
 6. Gather the outputs in the */content/UD_converter/out* folder (automatically created).
 
