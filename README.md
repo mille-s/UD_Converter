@@ -1,7 +1,7 @@
 # UD_Converter
 
 ## Introduction
-This converter takes as input a *.conllu file with UD annotations and produces a predicate-argument structure. It can be used to create training material (e.g. for natural language generation tools) or to extract semantics-oriented relations from UD annotations or parses. The first release of the converter (v1.0.0) supports English, French and Spanish UD structures and was developed on UD v2.0-v2.3. The code was first released for the SR'19 shared task.
+This converter takes as input either a *.conllu file with UD annotations and produces a predicate-argument structure. It is also possible to start from plain text and run the Stanza parser to produce the UD annotations (see below). The converter can be used to create training material (e.g. for natural language generation tools) or to extract semantics-oriented relations from UD annotations or parses. The first release of the converter (v1.0.0) supports English, French and Spanish UD structures and was developed on UD v2.0-v2.3. The code was first released for the SR'19 shared task.
 
 The primary purpose of this tool is to produce the datasets for the Multilingual Surface Realisation Shared Tasks series (SR’18-20, see http://taln.upf.edu/pages/msr2020-ws/SRST.html). It outputs two types of structures, called shallow (Track 1) and deep (Track 2) structures, aligned with one another via their IDs (see more details below):
 
@@ -14,9 +14,15 @@ More information can be found in the [SR’18 Data](https://aclanthology.org/W18
 ## Quick instructions to run the converter on COLAB
 1. Go to UD_Converter_release.ipynb and open the project in Colab.
 2. Run the first cell to download and unzip the working folder.
-3. If needed, edit the parameters on lines 18-72 of the second cell; see *Parameters* below.
-4. Upload one or more input file(s) to the */content/UD_converter/inputs* folder; see *Input specifications* below.
-5. Run the second cell.
+3. If the input is text:
+- run the second cell to install the Stanza parser.
+- upload a file in the *content/Stanza/input* folder; see *Input specifications* below.
+- choose the language.
+- run the third cell to parse the sentences and copy the output file(s) to the Converter input folder.
+3. If the input is a UD structure:
+- Upload one or more input file(s) to the */content/UD_converter/inputs* folder; see *Input specifications* below.
+4. If needed, edit the parameters on lines 18-72 of the fourth (last) cell; see *Parameters* below.
+5. Run the last cell.
 6. Gather the outputs in the */content/UD_converter/out* folder (automatically created).
 
 The 4 output subfolders are *Sent* (original sentences as found in UD metadata, if any), *T1* (T1 structures), *T2* (T2 structures), *debug* (time, alignment checks, well-formedness checks and execution trace for T2 conversion).
@@ -30,7 +36,13 @@ The 4 output subfolders are *Sent* (original sentences as found in UD metadata, 
 
 
 ## Input specifications
-A sample input structure is provided in the */content/UD_converter/inputs* folder.
+
+Stanza:
+1. Input files should be encoded in **UTF-8 without BOM**.
+2. Input files should contain one sentence per line.
+3. Input files should be uploaded to the */content/Stanza/inputs* folder.
+
+UD Converter: A sample input structure is provided in the */content/UD_converter/inputs* folder.
 1. Input files should be encoded in **UTF-8 without BOM**.
 2. Input files should have the **.conllu extension** and be in **CoNLL-U format**, with or without metadata (lines starting with '#'); see [CoNLLU Format description](https://universaldependencies.org/format.html).
 3. The UD structures shoud follow the specification of the **official [UD treebanks](https://universaldependencies.org/)**.
@@ -39,7 +51,10 @@ A sample input structure is provided in the */content/UD_converter/inputs* folde
 6. Input files should be uploaded to the */content/UD_converter/inputs* folder.
 
 ## Parameters
-With the provided default parameters, the converter will process the input structure(s) and create T1 and T2 outputs in the */content/UD_converter/out* folder. Note that the T1 and T2 structures will not be fit for the SR setting (see *Specific instructions for creating SR data* below). There are three blocks of parameters:
+
+Stanza: Choose the language of the input file.
+
+UD converter: With the provided default parameters, the converter will process the input structure(s) and create T1 and T2 outputs in the */content/UD_converter/out* folder. Note that the T1 and T2 structures will not be fit for the SR setting (see *Specific instructions for creating SR data* below). There are three blocks of parameters:
 1. **General parameters**, who don’t need to be edited; it is recommended to use the debug mode as it doesn’t require too much time and performs a useful output check.
 2. **Conversion parameters**, for establishing (i) whether T1 or T2 outputs are desired, (ii) whether the output nodes should be scrambled or not, (iii) what word-order-related information is kept in the T1/T2 outputs, and (iv) if the the outputs have training or test specifications (test has less info).
 3. **Additional parameters for T2 conversion**, for establishing which features and nodes are kept or not in the T2 output.
