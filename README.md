@@ -16,14 +16,14 @@ More information can be found in the [SR’18 Data](https://aclanthology.org/W18
 2. Run the first cell to download and unzip the working folder.
 3. If the input is text (from v1.3.0):
 - run the second cell to install the Stanza parser.
-- upload a file in the *content/Stanza/input* folder; see *Input specifications* below.
+- upload a file in the *content/Stanza/Inputs* folder; see *Input specifications* below.
 - choose the language.
-- run the third cell to parse the sentences and copy the output file(s) to the Converter input folder.
+- run the third cell to (i) parse the sentences and (ii) copy the output file(s) to the Converter input folder.
 3. If the input is a UD structure:
-- Upload one or more input file(s) to the */content/UD_converter/inputs* folder; see *Input specifications* below.
+- Upload one or more input file(s) to the */content/UD_converter/Inputs* folder; see *Input specifications* below.
 4. If needed, edit the parameters on lines 18-76 of the fourth (last) cell; see *Parameters* below.
 5. Run the last cell.
-6. Gather the outputs in the */content/UD_converter/out* folder (automatically created).
+6. Gather the outputs in the */content/UD_converter/Outputs* folder (automatically created).
 
 The 4 output subfolders are *Sent* (original sentences as found in UD metadata, if any), *T1* (T1 structures), *T2* (T2 structures), *debug* (time, alignment checks, well-formedness checks and execution trace for T2 conversion).
 
@@ -40,7 +40,7 @@ The 4 output subfolders are *Sent* (original sentences as found in UD metadata, 
 Stanza:
 1. Input files should be encoded in **UTF-8 without BOM**.
 2. Input files should contain one sentence per line.
-3. Input files should be uploaded to the */content/Stanza/inputs* folder.
+3. Input files should be uploaded to the */content/Stanza/Inputs* folder.
 
 UD Converter: A sample input structure is provided in the */content/UD_converter/inputs* folder.
 1. Input files should be encoded in **UTF-8 without BOM**.
@@ -48,7 +48,7 @@ UD Converter: A sample input structure is provided in the */content/UD_converter
 3. The UD structures shoud follow the specification of the **official [UD treebanks](https://universaldependencies.org/)**.
 4. File names in the input folder should **not contain spaces or parentheses**.
 5. A 2-letter + underscore prefix [en_, fr_, es_] should be used to indicate the language: e.g. en_ewt-UD.conllu, fr_myfile.conllu; otherwise, by default, the English converter is selected.
-6. Input files should be uploaded to the */content/UD_converter/inputs* folder.
+6. Input files should be uploaded to the */content/UD_converter/Inputs* folder.
 
 ## Parameters
 
