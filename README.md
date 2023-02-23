@@ -42,7 +42,7 @@ Stanza:
 2. Input files should contain one sentence per line.
 3. Input files should be uploaded to the */content/Stanza/Inputs* folder.
 
-UD Converter: A sample input structure is provided in the */content/UD_converter/inputs* folder.
+UD Converter: A sample input structure is provided in */content/UD_Converter/en_test.conllu*.
 1. Input files should be encoded in **UTF-8 without BOM**.
 2. Input files should have the **.conllu extension** and be in **CoNLL-U format**, with or without metadata (lines starting with '#'); see [CoNLLU Format description](https://universaldependencies.org/format.html).
 3. The UD structures shoud follow the specification of the **official [UD treebanks](https://universaldependencies.org/)**.
