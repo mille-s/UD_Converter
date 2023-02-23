@@ -1,0 +1,243 @@
+# text = A_Glastonbury_Romance wrote John_Cowper_Powys .
+1	A_Glastonbury_Romance	A_Glastonbury_Romance	PROPN	NNP	Number=Sing	2	nsubj	0	21
+2	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	22	27
+3	John_Cowper_Powys	John_Cowper_Powys	PROPN	NNP	Number=Sing	2	obj	28	45
+4	.	.	PUNCT	.	None	2	punct	46	47
+
+# text = Meride is a neighboring municipality to Mendrisio .
+1	Meride	Meride	PROPN	NNP	Number=Sing	5	nsubj	0	6
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	7	9
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	10	11
+4	neighboring	neighbor	VERB	VBG	VerbForm=Ger	5	amod	12	23
+5	municipality	municipality	NOUN	NN	Number=Sing	0	root	24	36
+6	to	to	ADP	IN	None	7	case	37	39
+7	Mendrisio	Mendrisio	PROPN	NNP	Number=Sing	5	nmod	40	49
+8	.	.	PUNCT	.	None	5	punct	50	51
+
+# text = Bakewell_pudding can be served warm__or_cold .
+1	Bakewell_pudding	Bakewell_pudding	PROPN	NNP	Number=Sing	4	nsubj:pass	0	16
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	17	20
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	21	23
+4	served	serve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	24	30
+5	warm__or_cold	warm__or_cold	ADV	RB	None	4	advmod	31	44
+6	.	.	PUNCT	.	None	4	punct	45	46
+
+# text = Barny_Cakes can be served in sizes of 30_grams .
+1	Barny_Cakes	Barny_Cakes	PROPN	NNP	Number=Sing	4	nsubj:pass	0	11
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	12	15
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	16	18
+4	served	serve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	19	25
+5	in	in	ADP	IN	None	6	case	26	28
+6	sizes	size	NOUN	NNS	Number=Plur	4	obl	29	34
+7	of	of	ADP	IN	None	9	case	35	37
+8	30	30	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	38	40
+9	_grams	_gram	NOUN	NNS	Number=Plur	6	nmod	40	46
+10	.	.	PUNCT	.	None	4	punct	47	48
+
+# text = Andrews_County_(Texas) owns the Andrews_County_Airport .
+1	Andrews_County_(	Andrews_County_(	PROPN	NNP	Number=Sing	2	compound	0	16
+2	Texas	Texas	PROPN	NNP	Number=Sing	4	nsubj	16	21
+3	)	)	PUNCT	-RRB-	None	2	punct	21	22
+4	owns	own	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	23	27
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	28	31
+6	Andrews_County_Airport	Andrews_County_Airport	PROPN	NNP	Number=Sing	4	obj	32	54
+7	.	.	PUNCT	.	None	4	punct	55	56
+
+# text = Carroll_County_(Maryland) is located to the southeast of Adams_County,_Pennsylvania .
+1	Carroll_County_(	Carroll_County_(	PROPN	NNP	Number=Sing	2	compound	0	16
+2	Maryland	Maryland	PROPN	NNP	Number=Sing	5	nsubj:pass	16	24
+3	)	)	PUNCT	-RRB-	None	2	punct	24	25
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	26	28
+5	located	locate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	29	36
+6	to	to	ADP	IN	None	8	case	37	39
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	40	43
+8	southeast	southeast	NOUN	NN	Number=Sing	5	obl	44	53
+9	of	of	ADP	IN	None	10	case	54	56
+10	Adams_County	Adams_County	PROPN	NNP	Number=Sing	8	nmod	57	69
+11	,	,	PUNCT	,	None	10	punct	69	70
+12	_Pennsylvania	_Pennsylvania	PROPN	NNP	Number=Sing	10	appos	70	83
+13	.	.	PUNCT	.	None	5	punct	84	85
+
+# text = the architectural style of 250_Delaware_Avenue is Postmodern_architecture .
+1	the	the	DET	DT	Definite=Def|PronType=Art	3	det	0	3
+2	architectural	architectural	ADJ	JJ	Degree=Pos	3	amod	4	17
+3	style	style	NOUN	NN	Number=Sing	8	nsubj	18	23
+4	of	of	ADP	IN	None	6	case	24	26
+5	250	250	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	27	30
+6	_Delaware_Avenue	_Delaware_Avenue	PROPN	NNP	Number=Sing	3	nmod	30	46
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	47	49
+8	Postmodern_architecture	Postmodern_architecture	PROPN	NNP	Number=Sing	0	root	50	73
+9	.	.	PUNCT	.	None	8	punct	74	75
+
+# text = the Reference Number in the National Register of Historic Places of Asher_and_Mary_Isabelle_Richardson_House is 88002539 .
+1	the	the	DET	DT	Definite=Def|PronType=Art	3	det	0	3
+2	Reference	reference	PROPN	NNP	Number=Sing	3	compound	4	13
+3	Number	number	NOUN	NN	Number=Sing	14	nsubj	14	20
+4	in	in	ADP	IN	None	7	case	21	23
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	24	27
+6	National	National	ADJ	NNP	Degree=Pos	7	amod	28	36
+7	Register	Register	PROPN	NNP	Number=Sing	3	nmod	37	45
+8	of	of	ADP	IN	None	10	case	46	48
+9	Historic	Historic	ADJ	NNP	Degree=Pos	10	amod	49	57
+10	Places	Place	PROPN	NNPS	Number=Plur	7	nmod	58	64
+11	of	of	ADP	IN	None	12	case	65	67
+12	Asher_and_Mary_Isabelle_Richardson_House	Asher_and_Mary_Isabelle_Richardson_House	PROPN	NNP	Number=Sing	10	nmod	68	108
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	109	111
+14	88002539	88002539	NUM	CD	NumForm=Digit|NumType=Card	0	root	112	120
+15	.	.	PUNCT	.	None	14	punct	121	122
+
+# text = Asilomar_Conference_Grounds was built in 1913 .
+1	Asilomar_Conference_Grounds	Asilomar_Conference_Grounds	PROPN	NNP	Number=Sing	3	nsubj:pass	0	27
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	28	31
+3	built	build	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	32	37
+4	in	in	ADP	IN	None	5	case	38	40
+5	1913	1913	NUM	CD	NumForm=Digit|NumType=Card	3	obl	41	45
+6	.	.	PUNCT	.	None	3	punct	46	47
+
+# text = Mahé_(India) is located to the northwest of Kerala .
+1	Mahé_(	Mahé_(	PROPN	NNP	Number=Sing	2	compound	0	6
+2	India	India	PROPN	NNP	Number=Sing	5	nsubj:pass	6	11
+3	)	)	PUNCT	-RRB-	None	2	punct	11	12
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	13	15
+5	located	locate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	16	23
+6	to	to	ADP	IN	None	8	case	24	26
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	27	30
+8	northwest	northwest	NOUN	NN	Number=Sing	5	obl	31	40
+9	of	of	ADP	IN	None	10	case	41	43
+10	Kerala	Kerala	PROPN	NNP	Number=Sing	8	nmod	44	50
+11	.	.	PUNCT	.	None	5	punct	51	52
+
+# text = California is well known for the Benitoite gemstone .
+1	California	California	PROPN	NNP	Number=Sing	4	nsubj:pass	0	10
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	11	13
+3	well	well	ADV	RB	Degree=Pos	4	advmod	14	18
+4	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	19	24
+5	for	for	ADP	IN	None	8	case	25	28
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	29	32
+7	Benitoite	Benitoite	PROPN	NNP	Number=Sing	8	compound	33	42
+8	gemstone	gemstone	NOUN	NN	Number=Sing	4	obl	43	51
+9	.	.	PUNCT	.	None	4	punct	52	53
+
+# text = Elliot_See died on February_28,_1966 .
+1	Elliot_See	Elliot_See	PROPN	NNP	Number=Sing	2	nsubj	0	10
+2	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	11	15
+3	on	on	ADP	IN	None	4	case	16	18
+4	February_28	February_28	PROPN	NNP	Number=Sing	2	obl	19	30
+5	,	,	PUNCT	,	None	4	punct	30	31
+6	_1966	_1966	NUM	CD	NumForm=Digit|NumType=Card	4	appos	31	36
+7	.	.	PUNCT	.	None	2	punct	37	38
+
+# text = the ICAO location identifier of the Afonso_Pena_International_Airport is SBCT .
+1	the	the	DET	DT	Definite=Def|PronType=Art	4	det	0	3
+2	ICAO	ICAO	PROPN	NNP	Number=Sing	4	compound	4	8
+3	location	location	NOUN	NN	Number=Sing	4	compound	9	17
+4	identifier	identifier	NOUN	NN	Number=Sing	9	nsubj	18	28
+5	of	of	ADP	IN	None	7	case	29	31
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	32	35
+7	Afonso_Pena_International_Airport	Afonso_Pena_International_Airport	PROPN	NNP	Number=Sing	4	nmod	36	69
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	70	72
+9	SBCT	SBCT	PROPN	NNP	Number=Sing	0	root	73	77
+10	.	.	PUNCT	.	None	9	punct	78	79
+
+# text = Danes live in Denmark .
+1	Danes	Danes	PROPN	NNPS	Number=Plur	2	nsubj	0	5
+2	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	6	10
+3	in	in	ADP	IN	None	4	case	11	13
+4	Denmark	Denmark	PROPN	NNP	Number=Sing	2	obl	14	21
+5	.	.	PUNCT	.	None	2	punct	22	23
+
+# text = United_States_Air_Force uses the Boeing_C-17_Globemaster_III as aircraft_transport .
+1	United_States_Air_Force	United_States_Air_Force	PROPN	NNP	Number=Sing	2	nsubj	0	23
+2	uses	use	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	24	28
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	29	32
+4	Boeing_C	Boeing_C	PROPN	NNP	Number=Sing	2	obj	33	41
+5	-	-	PUNCT	HYPH	None	6	punct	41	42
+6	17_Globemaster_III	17_Globemaster_III	PROPN	NNP	Number=Sing	4	flat	42	60
+7	as	as	ADP	IN	None	8	case	61	63
+8	aircraft_transport	aircraft_transport	NOUN	NN	Number=Sing	2	obl	64	82
+9	.	.	PUNCT	.	None	2	punct	83	84
+
+# text = the native name of the Baku_Turkish_Martyrs'_Memorial is Türk_Şehitleri_Anıtı .
+1	the	the	DET	DT	Definite=Def|PronType=Art	3	det	0	3
+2	native	native	ADJ	JJ	Degree=Pos	3	amod	4	10
+3	name	name	NOUN	NN	Number=Sing	9	nsubj	11	15
+4	of	of	ADP	IN	None	7	case	16	18
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	19	22
+6	Baku_Turkish_Martyrs	Baku_Turkish_Martyrs	PROPN	NNP	Number=Sing	7	compound	23	43
+7	'_Memorial	'_Memorial	PROPN	NNP	Number=Sing	3	nmod	43	53
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	54	56
+9	Türk_Şehitleri_Anıtı	Türk_Şehitleri_Anıtı	PROPN	NNP	Number=Sing	0	root	57	77
+10	.	.	PUNCT	.	None	9	punct	78	79
+
+# text = the construction of 320_South_Boston_Building began in 1910 .
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	0	3
+2	construction	construction	NOUN	NN	Number=Sing	6	nsubj	4	16
+3	of	of	ADP	IN	None	5	case	17	19
+4	320	320	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	20	23
+5	_South_Boston_Building	_South_Boston_Building	PROPN	NNP	Number=Sing	2	nmod	23	45
+6	began	begin	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	46	51
+7	in	in	ADP	IN	None	8	case	52	54
+8	1910	1910	NUM	CD	NumForm=Digit|NumType=Card	6	obl	55	59
+9	.	.	PUNCT	.	None	6	punct	60	61
+
+# text = the tenant of Sportpark_De_Toekomst is Jong_Ajax .
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	0	3
+2	tenant	tenant	NOUN	NN	Number=Sing	6	nsubj	4	10
+3	of	of	ADP	IN	None	4	case	11	13
+4	Sportpark_De_Toekomst	Sportpark_De_Toekomst	PROPN	NNP	Number=Sing	2	nmod	14	35
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	36	38
+6	Jong_Ajax	Jong_Ajax	PROPN	NNP	Number=Sing	0	root	39	48
+7	.	.	PUNCT	.	None	6	punct	49	50
+
+# text = B.M._Reddy was the president of Acharya_Institute_of_Technology .
+1	B.M._Reddy	B.M._Reddy	PROPN	NNP	Number=Sing	4	nsubj	0	10
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	11	14
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	15	18
+4	president	president	NOUN	NN	Number=Sing	0	root	19	28
+5	of	of	ADP	IN	None	6	case	29	31
+6	Acharya_Institute_of_Technology	Acharya_Institute_of_Technology	PROPN	NNP	Number=Sing	4	nmod	32	63
+7	.	.	PUNCT	.	None	4	punct	64	65
+
+# text = the county seat of Madison_County,_Indiana is Anderson_(Indiana) .
+1	the	the	DET	DT	Definite=Def|PronType=Art	3	det	0	3
+2	county	county	NOUN	NN	Number=Sing	3	compound	4	10
+3	seat	seat	NOUN	NN	Number=Sing	9	nsubj	11	15
+4	of	of	ADP	IN	None	5	case	16	18
+5	Madison_County	Madison_County	PROPN	NNP	Number=Sing	3	nmod	19	33
+6	,	,	PUNCT	,	None	7	punct	33	34
+7	_Indiana	_Indiana	PROPN	NNP	Number=Sing	9	nsubj	34	42
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	43	45
+9	Anderson_	Anderson_	PROPN	NNP	Number=Sing	0	root	46	55
+10	(	(	PUNCT	-LRB-	None	11	punct	55	56
+11	Indiana	Indiana	PROPN	NNP	Number=Sing	9	appos	56	63
+12	)	)	PUNCT	-RRB-	None	11	punct	63	64
+13	.	.	PUNCT	.	None	9	punct	65	66
+
+# text = Bhaji is also called bhaji_and_bajjis .
+1	Bhaji	Bhaji	PROPN	NNP	Number=Sing	4	nsubj:pass	0	5
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	6	8
+3	also	also	ADV	RB	None	4	advmod	9	13
+4	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	14	20
+5	bhaji_and_bajjis	bhaji_and_bajjis	PROPN	NNP	Number=Sing	4	xcomp	21	37
+6	.	.	PUNCT	.	None	4	punct	38	39
+
+# text = a Chicken is of the Bird class .
+1	a	a	DET	DT	Definite=Ind|PronType=Art	2	det	0	1
+2	Chicken	chicken	NOUN	NN	Number=Sing	7	nsubj	2	9
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	10	12
+4	of	of	ADP	IN	None	7	case	13	15
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	16	19
+6	Bird	Bird	NOUN	NN	Number=Sing	7	compound	20	24
+7	class	class	NOUN	NN	Number=Sing	0	root	25	30
+8	.	.	PUNCT	.	None	7	punct	31	32
+
+# text = the currency of India is the Indian_rupee .
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	0	3
+2	currency	currency	NOUN	NN	Number=Sing	7	nsubj	4	12
+3	of	of	ADP	IN	None	4	case	13	15
+4	India	India	PROPN	NNP	Number=Sing	2	nmod	16	21
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	22	24
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	25	28
+7	Indian_rupee	Indian_rupee	PROPN	NNP	Number=Sing	0	root	29	41
+8	.	.	PUNCT	.	None	7	punct	42	43
+
