@@ -29,7 +29,7 @@
 29	–2018	–2018	NUM	CD	NumForm=Digit|NumType=Card	28	nummod	214	219
 30	.	.	PUNCT	.	_	21	punct	219	220
 
-# Jinnah_International_Airport ( ), formerly Drigh Road Airport or Karachi Pakistan_Civil_Aviation_Authority Airport, is Pakistan's busiest international and domestic airport, and handled 7,267,582 passengers in 2017-2018 .
+# Jinnah_International_Airport ( ), formerly Drigh Road Airport or Karachi Pakistan_Civil_Aviation_Authority Airport, is Pakistan's busiest international and domestic airport, and handled 7,267,582 passengers in 2017-2018.
 1	Jinnah_International_Airport	Jinnah_International_Airport	PROPN	NNP	Number=Sing|object=true	21	nsubj	0	28
 2	(	(	PUNCT	-LRB-	_	1	punct	29	30
 3	)	)	PUNCT	-RRB-	_	1	punct	30	31
