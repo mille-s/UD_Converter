@@ -16,10 +16,10 @@ More information can be found in the [SR’18 Data](https://aclanthology.org/W18
 2. Run the first cell to download and unzip the working folder.
 3. If the input is text (from v1.3.0):
 - run the second cell to install the Stanza parser.
-- upload a file in the *content/Stanza/Inputs* folder; see *Input specifications* below.
+- edit the sentences and run the third cell, or upload a file in the *content/Stanza/Inputs* folder; see *Input specifications* below.
 - choose the language.
-- run the third cell to (i) parse the sentences and (ii) copy the output file(s) to the Converter input folder.
-3. If the input is a UD structure:
+- run the fourth cell to (i) parse the sentences and (ii) copy the output file(s) to the Converter input folder.
+or 3. If the input is a UD structure:
 - Upload one or more input file(s) to the */content/UD_converter/Inputs* folder; see *Input specifications* below.
 4. If needed, edit the parameters on lines 18-76 of the fourth (last) cell; see *Parameters* below.
 5. Run the last cell.
