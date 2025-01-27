@@ -29,6 +29,7 @@ dType = sys.argv[12]
 sentOutTmpFolder =  sys.argv[13]
 reduce_tree =  sys.argv[14]
 adposition =  sys.argv[15]
+copula =  sys.argv[16]
 
 #print('Processing', str(pathIN))
 # utf-8, utf-16BE, etc.
@@ -236,6 +237,8 @@ for InputFile in FileList:
 							line = re.subn('^([0-9]+\t[^\t]+\t[^\t]+\t[^\t]+\t[^\t]+\t)([^\t]+\t[^\t]+\troot\t[^\t]+\t[^\t\r\n]+)$', '\g<1>rT="y"|\g<2>', line)[0]
 						if adposition == 'yes':
 							line = re.subn('^([0-9]+\t[^\t]+\t[^\t]+\t[^\t]+\t[^\t]+\t)([^\t]+\t[^\t]+\t[^\t]+\t[^\t]+\t[^\t\r\n]+)$', '\g<1>kA="y"|\g<2>', line)[0]
+						if copula == 'yes':
+							line = re.subn('^([0-9]+\t[^\t]+\t[^\t]+\t[^\t]+\t[^\t]+\t)([^\t]+\t[^\t]+\t[^\t]+\t[^\t]+\t[^\t\r\n]+)$', '\g<1>kB="y"|\g<2>', line)[0]
 						if dType == '2':
 							line = re.subn('^([0-9]+\t[^\t]+\t[^\t]+\t[^\t]+\t[^\t]+\t)([^\t]+\t[^\t]+\t[^\t]+\t[^\t]+\t[^\t\r\n]+)$', '\g<1>kC="n"|\g<2>', line)[0]
 						# Map to CoNLL'09 (Shortcut: CoNLL06-matches)
